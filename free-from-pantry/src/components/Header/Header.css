@@ -1,0 +1,14 @@
+.header > div > h1 {
+    text-align: center;
+}
+
+.login-donate {
+    display: flex;
+    align-content: right;
+    justify-content: right;
+    padding: 0 10px 20px 0;
+}
+
+.sign-in {
+    padding-right: 20px;
+}

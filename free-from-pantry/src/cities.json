@@ -1,0 +1,186 @@
+
+const CITIES = [
+	{
+		"state": "TX",
+		"cities": [
+			"Houston",
+		]
+	},
+	{
+		"state": "MA",
+		"cities": [
+			"Jamaica Plain",
+			"Medway",
+			"Action",
+			"Natick",
+			"Bedford",
+			"Amherst",
+			"West Roxbury",
+			"Gloucester",
+			"Easthampton",
+			"Worcester",
+			"Woburn",
+			"Hopkinton"
+		]
+	},
+	{
+		"state": "CT",
+		"cities": [
+			"Guilford",
+			"Southbury"
+		]
+	},
+	{
+		"state": "SC",
+		"cities": [
+			"Greenwood"
+		]
+	},
+	{
+		"state": "CO",
+		"cities": [
+			"Colorado Springs",
+			"Englewood"
+		]
+	},
+	{
+		"state": "IL",
+		"cities": [
+			"Geneva",
+			"Clinton"
+		]
+	},
+	{
+		"state": "NY",
+		"cities": [
+			"Albany",
+			"Ballston Spa",
+			"Brooklyn"
+		]
+	},
+	{
+		"state": "CA",
+		"cities": [
+			"Fort Bragg",
+			"San Diego",
+			"Encinitas",
+			"Los Angeles"
+		]
+	},
+	{
+		"state": "IN",
+		"cities": [
+			"Evansville",
+			"Bloomington",
+			"Owensville"
+		]		
+	},
+	{
+		"state": "MO",
+		"cities": [
+			"Bridgeton",
+			"Kansas City"
+		]
+	},
+	{
+		"state": "AZ",
+		"cities": [
+			"Scottsdale"
+		]
+	},
+	{
+		"state": "VA",
+		"cities": [
+			"Fredericksburg"
+		]		
+	},
+	{
+		"state": "OR",
+		"cities": [
+			"Beaverton"
+		]
+	},
+	{
+		"state": "RI",
+		"cities": [
+			"Providence",
+		]
+	},
+	{
+		"state": "AK",
+		"cities": [
+			"Anchorage"
+		]
+	},
+	{
+		"state": "KS",
+		"cities": [
+			"Hutchinson"
+		]
+	},
+	{
+		"state": "MD",
+		"cities": [
+			"Columbia"
+		]
+	},
+	{
+		"state": "NH",
+		"cities": [
+			"Marlborough",
+			"Keene",
+			"Portsmouth"
+		]
+	},
+	{
+		"state": "SD",
+		"cities": [
+			"Sioux Falls"
+		]
+	},
+	{
+		"state": "ME",
+		"cities": [
+			"Madison"
+		]
+	},
+	{
+		"state": "MI",
+		"cities": [
+			"Plymouth"
+		]
+	},
+	{
+		"state": "ID",
+		"cities": [
+			"Meridian"
+		]
+	},
+	{
+		"state": "FL",
+		"cities": [
+			"Miami",
+			"Boca Raton",
+			"North Miami Beach"
+		]
+	},
+	{
+		"state": "NM",
+		"cities": [
+			"Albuquerque"
+		]
+	},
+	{
+		"state": "OH",
+		"cities": [
+			"Akron"
+		]
+	},
+	{
+		"state": "PA",
+		"cities": [
+			"Souderton",
+			"Plymouth Meeting"
+		]
+	}
+]	
