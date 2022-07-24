@@ -1,1 +1,2 @@
-# Collection of educational and personal projects.
+# Portfolio 
+Collection of educational and personal projects.
