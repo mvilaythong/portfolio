@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+}
+
+#background1 {
+    background: url('../project2-CoffeePlex/img/backgrounds/background1.jpg') center center no-repeat;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#background2 {
+    background: url('../project2-CoffeePlex/img/backgrounds/background2.jpg') center center no-repeat;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#background3 {
+    background: url('../project2-CoffeePlex/img/backgrounds/background3.jpg') center center no-repeat;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#message {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#message h1 {
+    font-size: 54px;
+    color: white;
+    font-weight: bold;
+    -webkit-text-stroke: 2px black; 
+    text-transform: uppercase;
+}
+
+.navicon {
+    font-size: 24px;
+    color: #fd7e14;
+    padding-right: 10px;
+}
+
+#the-footer {
+    background: #263238;
+    color: white;
+    padding: 50px 0;
+    font-size: 13px;
+}
+
+#the-footer h6 {
+    color: #1E88E5;
+}
+
+#the-footer a {
+    color: #CFD8DC;
+}
+
+.footericon {
+    font-size: 96px;
+    color: #fd7e14;
+}
+
+/* About page */
+
+.section {
+    padding: 112px 0;
+    overflow: hidden;
+}
+
+.middle {
+    background: #262f36;
+    color: white;
+}
+
+.middle h2 {
+    color: #CFD8DC;
+}
