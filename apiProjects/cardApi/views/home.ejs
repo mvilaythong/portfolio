@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>CARDS</title>
+</head>
+
+<body>
+	<h1>Deck of Cards</h1>
+	<div class="container">
+		<h2>Player Hand</h2>
+		<div id="playerHand" class="hand">
+			<!-- Passed the sort hand function the front end and  we can run it here instead of all on back end. Just know this is possible-->
+			<% player.sort(sortHand) %>
+			<!-- For a mini challenge - conver the card to a partial you call here -->
+			<% player.forEach(card=> { %>
+				<!-- Convert to a partial? -->
+				<img src="<%=card.image%>" alt="Card <%=card.value%><%=card.suit%>">
+				<% }) %>
+		</div>
+		<h2>Computer Hand</h2>
+		<div id="computerHand" class="hand">
+			<% computer.sort(sortHand) %>
+			<% computer.forEach(card=> { %>
+				<img src="<%=card.image%>" alt="Card <%=card.value%><%=card.suit%>">
+				<% }) %>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<%- include('partials/header') %>
+    <div class="container d-flex justify-content-center">
+        <div class="btn">
+            <form action="/index" method="get" class="radios">
+                <label>
+                    <input type="radio" name="isValue" value="USD">USD
+                    <input type="radio" name="isValue" value="GBP">GBP
+                    <input type="radio" name="isValue" value="EUR">EUR
+                    <button type="submit">Get Price</button>
+                </label>
+            </form>
+            <h2>This is the current price:</h2>
+            <% if (currency === data.USD.code) { %>
+                <p> &#36; <%= data.USD.rate %> </p>
+            <% } %>
+            <% if (currency === data.GBP.code) { %>
+                <p> &pound; <%= data.GBP.rate %> </p>
+            <% } %>
+            <% if (currency === data.EUR.code) { %>
+                <p> &euro; <%= data.EUR.rate %> </p>
+            <% } %>
+        </div>
+    </div><!-- /.container -->
+</div>
+<%- include('partials/footer') %>

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  body {
+    background-color: #a0f7f7;
+  }
+  h1 {
+    text-align: center;
+  }
+  form {
+    text-align: center;
+  }
+  button {
+    padding: 1%;
+    border-radius: 35%;
+    width: 100px;
+    border: 1px solid black;
+    color: white;
+    text-shadow: 1px 1px black;
+  }
+  button:nth-of-type(1) {
+    background-color: blue;
+  }
+  button:nth-of-type(2) {
+    background-color: green;
+  }
+  button:hover {
+    background-color: #f25c5c;
+  }
+  #displayResults {
+    box-shadow: 3px 3px 5px black;
+    height: 80vh;
+    width: 75vw;
+    margin: 1% auto;
+    overflow: auto;
+  }
+  .card {
+    box-shadow: 2px 2px 4px #002b89;
+    width: 50%;
+    margin: 1% auto;
+    padding: 2px;
+  }

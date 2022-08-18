@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    color: white;
+    text-transform: uppercase;
+}
+body {
+    background-color: #076324;
+    padding: 10px 30px;
+}
+.container {
+    margin: 25px auto;
+}
+.hand {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+h1, h2 {
+    text-align: center;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.473);
+}
+h2, #playerHand {
+    margin-bottom: 8px;
+}
+img {
+    margin: 0 3px;
+    box-shadow: rgba(0, 0, 0, 0.288) 0px 15px 25px, rgba(0, 0, 0, 0.274) 0px 5px 10px;
+    border-radius: 8px;
+}

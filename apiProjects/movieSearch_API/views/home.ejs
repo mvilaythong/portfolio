@@ -1,0 +1,33 @@
+
+   
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Movie Search API</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Movie Search</h1>
+    <form>
+      <button type="submit" formaction="/upcoming">Upcoming</button>
+      <input type="text" name="doggy" placeholder="Enter movie here..." autocomplete="off">
+      <button type="submit" formaction="/kittycat">Search</button>
+    </form>
+    <div id="displayResults">
+      <div class="card">
+          <% data.forEach(element => { %>
+            <p><%= element.title %></p>
+            <% let imageSrc = `https://image.tmdb.org/t/p/w200/${element.poster_path}`%>
+            <img src="<%= imageSrc %>" alt="<%= element.title %>">
+            <p>
+              <%= element.overview %>
+            </p>
+          <% }) %>
+      </div>
+    </div>
+  </body>
+</html>

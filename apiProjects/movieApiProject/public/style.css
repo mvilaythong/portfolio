@@ -1,0 +1,8 @@
+html, body {
+    height: 100%;
+}
+
+#background {
+    background-image: url("/public/movie-theater.jpg");
+    /* background-color: black; */
+}

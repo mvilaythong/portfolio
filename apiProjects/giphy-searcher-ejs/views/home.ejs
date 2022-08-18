@@ -1,0 +1,16 @@
+<%- include("partials/header") %>
+
+    <h1>Giphy Searcher</h1>
+    <form>
+      <input type="text" name="gif" placeholder="Search Giphy" autocomplete="off">
+      <button type="submit" formaction="/search">Search</button>
+    </form>
+    <div id="flex-container">
+      <div class="card">
+          <% for (let i = 0; i < data.length; i++) { %>
+            <img class="gif" src="<%=data[i].images.original.url%>" alt="<%=data[i].title%>">
+         <% } %>
+      </div>
+    </div>
+
+    <%- include("partials/footer") %> 

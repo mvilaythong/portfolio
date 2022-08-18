@@ -1,0 +1,10 @@
+<%- include("partials/header") %> 
+
+<h1>Results</h1>
+<div class="flex-container">
+    <% for (let i = 0; i < data.length; i++) { %>
+          <img class="gif" src="<%=data[i].images.original.url%>" alt="<%=data[i].title%>">
+    <% } %>
+</div>
+
+<%- include("partials/footer") %> 
