@@ -9,13 +9,13 @@ const style = {
     postContent: 'text-sm font-light text-[#D7DADC]/80'
 }
 
-const Post = () => {
+const Post = ({id, title, author}) => {
     return (
         <div className={style.wrapper}>
         <Vote />
         <div className={style.post}>
-            <Info />
-            <h1 className={style.postTitle}>How to Build a Reddit Clone with Next.js</h1>
+            <Info author={author}/>
+            <h1 className={style.postTitle}>{title}</h1>
             <p className={style.postContent}>This post will show you the step-by-step guide to building out your very own front-end & backend with Supabase.</p>
             <Actions />
         </div>
