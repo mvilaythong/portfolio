@@ -7,9 +7,13 @@ const posts = [
     {id: 2, title: 'build twitter', author: 'mellowyellow'},
 ]
 
+const style = {
+  wrapper: 'space-y-2.5'
+}
+
 const Feed = () => {
     return (
-      <div>
+      <div className={style.wrapper}>
         {posts.map((post) => (
             <Post {...post}/> //de-structure each post in array
         ))}
