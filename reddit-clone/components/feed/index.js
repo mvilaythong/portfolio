@@ -14,8 +14,8 @@ const style = {
 const Feed = () => {
     return (
       <div className={style.wrapper}>
-        {posts.map((post) => (
-            <Post {...post}/> //de-structure each post in array
+        {posts.map((post, id) => (
+            <Post {...post} key={id}/> //de-structure each post in array
         ))}
       </div>  
     )
