@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.6",
+    "@supabase/supabase-js": "github:supabase/supabase-js",
     "next": "12.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
